@@ -1,9 +1,52 @@
 body{
         font-family: 'Roboto','Raleway', sans-serif;
+        background: #E5E5E5;
     }
-
-.logo{
+header{
+    background-color: #FFFFFF;
+}
+footer{
+    background-color:#2F303A;
+;
+}
+a{
     text-decoration: none;
+}
+.logo{
+    font-weight: 700;
+    background-color: none;
+    font-family: Raleway;
+    font-size: 26px;
+}
+.web{
+    color: #2196F3;
+
+}
+.studio-header{
+    color: #000000;
+}
+
+.studio-footer{
+    color:#FFFFFF
+}
+.title{
+    color: #FFFFFF;
+    background-color: #2F303A;
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900; 
+ 
+}
+.button-title{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+
+
+;
 
 }
 .agency{
@@ -20,4 +63,17 @@ body{
 }
 .telephone{
     text-decoration: none;
+}
+h2{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: ;
+    text-align: center;
+}
+h3{
+    color: #212121;
+    font-weight:
+
+
 }
