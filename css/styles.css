@@ -1,3 +1,23 @@
-    body{
+body{
         font-family: 'Roboto','Raleway', sans-serif;
     }
+
+.logo{
+    text-decoration: none;
+
+}
+.agency{
+    text-decoration: none;
+}
+.portfolio{
+    text-decoration: none;
+}
+.contact{
+    text-decoration: none;
+}
+.mail{
+    text-decoration: none;
+}
+.telephone{
+    text-decoration: none;
+}
