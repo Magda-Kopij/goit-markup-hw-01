@@ -7,10 +7,19 @@ header{
 }
 footer{
     background-color:#2F303A;
-;
 }
 a{
     text-decoration: none;
+}
+.button-por > li :hover{
+    background-color:#2196F3;
+    color:#FFFFFF
+
+}
+.button:hover{
+     background-color:#2196F3;
+     color:#FFFFFF;
+
 }
 .logo{
     font-weight: 700;
@@ -29,6 +38,31 @@ a{
 .studio-footer{
     color:#FFFFFF
 }
+
+.agency:hover{
+    background-color:#2196F3;
+    color:#FFFFFF;
+
+}
+.portfolio:hover{
+    background-color:#2196F3;
+    color:#FFFFFF;
+
+}
+.contact:hover{
+    background-color:#2196F3;
+    color:#FFFFFF;
+
+}
+.mail:hover{
+    background-color:#2196F3;
+    color:#FFFFFF;
+ 
+}
+.telephone:hover{
+    background-color:#2196F3;
+    color:#FFFFFF;
+}
 .title{
     color: #FFFFFF;
     background-color: #2F303A;
@@ -44,11 +78,10 @@ a{
     font-size: 16px;
     text-align: center;
     font-weight: 700;
-
-
-;
+    cursor: pointer;
 
 }
+
 .agency{
     text-decoration: none;
 }
@@ -59,10 +92,18 @@ a{
     text-decoration: none;
 }
 .mail{
-    text-decoration: none;
+    color: #FFFFFF;
+
 }
 .telephone{
     text-decoration: none;
+}
+.address{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: ;
+
+
 }
 h2{
     color: #212121;
@@ -74,6 +115,15 @@ h2{
 h3{
     color: #212121;
     font-weight:
+}
+
+.button-por button {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
 
 
 }
