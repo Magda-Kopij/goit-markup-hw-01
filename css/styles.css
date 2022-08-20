@@ -47,12 +47,7 @@ footer{
     line-height: 1.2;
     letter-spacing: 0.03;
 }
-.studio-header:hover,
-.studio-header:focus
-{
-    background-color: #2196F3;
-    color:#FFFFFF;
-}
+
 
 .navigation-link{
     /* font-family: Roboto; */
@@ -103,6 +98,8 @@ footer{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03;
+    
 }
 /* git */
 .street{
@@ -132,7 +129,7 @@ footer{
 
  
 }
-/* DOBRZE, ZOSTAW */
+/* DOBRZE */
 .button-order{
     color: #FFFFFF;
     background-color: #2196F3;
@@ -156,7 +153,7 @@ footer{
 
 
 
-/* INDEX.HTML title-text-main - dotyczy tekstu i naglowków na glownej stronie index.html*/
+/* INDEX.HTML t- dotyczy tekstu i naglowków na glownej stronie index.html*/
 .text-header{
     color: #212121;
     font-size: 14px;
