@@ -1,6 +1,8 @@
 body{
         font-family: 'Roboto','Raleway', sans-serif;
         background: #E5E5E5;
+        color: #757575;
+
     }
 header{
     background-color: #FFFFFF;
@@ -11,12 +13,18 @@ footer{
 a{
     text-decoration: none;
 }
-.button-por > li :hover{
-    background-color:#2196F3;
-    color:#FFFFFF
+.port-p{
+    background-color: red;
+    color:  #2196F3;
 
 }
-.button:hover{
+.agency-a{
+    background: #2196F3;
+    color: white;
+
+} 
+.button:hover,
+.button:focus{
      background-color:#2196F3;
      color:#FFFFFF;
 
@@ -26,42 +34,56 @@ a{
     background-color: none;
     font-family: Raleway;
     font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03;
 }
 .web{
     color: #2196F3;
+    background-color: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03;
 
 }
 .studio-header{
     color: #000000;
+    background-color: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03;
 }
-
-.studio-footer{
-    color:#FFFFFF
-}
-
-.agency:hover{
-    background-color:#2196F3;
+.studio-header:hover,
+.studio-header:focus
+{
+    background-color: #2196F3;
     color:#FFFFFF;
+}
+
+.navigation a{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.15;
+    letter-spacing: 0.02;
+    color: #212121;
 
 }
-.portfolio:hover{
-    background-color:#2196F3;
-    color:#FFFFFF;
-
+.navigation a:hover,
+.navigation a:focus{
+    color: #2196F3;
 }
-.contact:hover{
-    background-color:#2196F3;
-    color:#FFFFFF;
 
-}
+
 .mail:hover{
-    background-color:#2196F3;
-    color:#FFFFFF;
+    color:#2196F3;
  
 }
 .telephone:hover{
-    background-color:#2196F3;
-    color:#FFFFFF;
+    color:#2196F3;
 }
 .title{
     color: #FFFFFF;
@@ -82,22 +104,14 @@ a{
 
 }
 
-.agency{
-    text-decoration: none;
-}
-.portfolio{
-    text-decoration: none;
-}
-.contact{
-    text-decoration: none;
-}
+
+
+
 .mail{
     color: #FFFFFF;
 
 }
-.telephone{
-    text-decoration: none;
-}
+
 .address{
     color: #FFFFFF;
     font-size: 14px;
@@ -112,18 +126,85 @@ h2{
     line-height: ;
     text-align: center;
 }
-h3{
-    color: #212121;
-    font-weight:
-}
 
-.button-por button {
+/* INDEX.HTML title-text-main - dotyczy tekstu i naglowków na glownej stronie index.html*/
+.title-text-main h3{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.title-text-main p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+/*PORTOFLIO.HTML portfolio-figure - klasa do opisu zdjec+naglowkow w zakladce - portfolio */
+.portfolio-figure h3{
+    color: #212121;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+.portfolio-figure p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+
+}
+.button--menu{
     color: #212121;
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
     cursor: pointer;
+    letter-spacing: 0.03;
+    line-height: 1.63;
+
+}
+.button-por > li :hover
+{
+    background-color: #2196F3;
+    color:#FFFFFF;
+
+}
+button:focus{
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+.studio-footer{
+    color:#FFFFFF;
+    background-color: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03;
 }
