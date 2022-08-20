@@ -10,19 +10,10 @@ header{
 footer{
     background-color:#2F303A;
 }
-a{
+ a{
     text-decoration: none;
 }
-.port-p{
-    background-color: red;
-    color:  #2196F3;
 
-}
-.agency-a{
-    background: #2196F3;
-    color: white;
-
-} 
 .button:hover,
 .button:focus{
      background-color:#2196F3;
@@ -37,7 +28,7 @@ a{
     line-height: 1.2;
     letter-spacing: 0.03;
 }
-.web{
+.logo-web{
     color: #2196F3;
     background-color: none;
     font-family: Raleway;
@@ -47,7 +38,7 @@ a{
     letter-spacing: 0.03;
 
 }
-.studio-header{
+.logo-studio{
     color: #000000;
     background-color: none;
     font-family: Raleway;
@@ -63,8 +54,8 @@ a{
     color:#FFFFFF;
 }
 
-.navigation a{
-    font-family: Roboto;
+.navigation-link{
+    /* font-family: Roboto; */
     font-weight: 500;
     font-size: 14px;
     line-height:1.15;
@@ -72,36 +63,87 @@ a{
     color: #212121;
 
 }
-.navigation a:hover,
-.navigation a:focus{
+.navigation-link:hover,
+.navigation-link:focus{
     color: #2196F3;
 }
-
-
-.mail:hover{
+/*  DOBRZE!*/
+.portfolio{
+    color:#2196F3
+}
+/*  DOBRZE!*/
+.mail-header{
+    color: #757575;
+    font-size: 14px;
+}
+/*  DOBRZE!*/
+.telephone-header{
+    color: #757575;
+    font-size: 14px;
+}
+/*  DOBRZE!*/
+.mail-header:hover,
+.mail-header:focus
+{
     color:#2196F3;
  
 }
-.telephone:hover{
+.telephone-header:hover,
+.telephone-header:focus{
     color:#2196F3;
 }
-.title{
+/* git */
+.address{
+    text-decoration: none;
+    background: #2F303A;
+
+}
+/* git */
+.address-linkf{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* git */
+.street{
+    color: #FFFFFF;
+    line-height: 1.71;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+/* git */
+.address-linkf:hover,
+.address-linkf:focus{
+    color:#2196F3
+}
+.logo-studio-footer{
+    color: #FFFFFF
+}
+/* DOBRZE, ZOSTAW */
+.solution-header{
     color: #FFFFFF;
     background-color: #2F303A;
     font-size: 44px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 900; 
+    letter-spacing: 0.06em;
+    line-height: 1.35;
+
  
 }
-.button-title{
+/* DOBRZE, ZOSTAW */
+.button-order{
     color: #FFFFFF;
     background-color: #2196F3;
     font-size: 16px;
     text-align: center;
     font-weight: 700;
     cursor: pointer;
-
+    letter-spacing: 0.06em;
+    line-height: 1.88;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 
@@ -112,23 +154,10 @@ a{
 
 }
 
-.address{
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: ;
 
-
-}
-h2{
-    color: #212121;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: ;
-    text-align: center;
-}
 
 /* INDEX.HTML title-text-main - dotyczy tekstu i naglowków na glownej stronie index.html*/
-.title-text-main h3{
+.text-header{
     color: #212121;
     font-size: 14px;
     font-weight: 700;
@@ -136,15 +165,51 @@ h2{
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
-.title-text-main p{
+.text-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.header-work{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 
 }
+.header-team{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+.ourteam-person{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+.ourteam-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+/* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
 /*PORTOFLIO.HTML portfolio-figure - klasa do opisu zdjec+naglowkow w zakladce - portfolio */
-.portfolio-figure h3{
+.header-por{
     color: #212121;
     font-weight: 700;
     font-family: Roboto;
@@ -153,14 +218,15 @@ h2{
     letter-spacing: 0.06em;
 
 }
-.portfolio-figure p{
+.dexcription-por{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    color: #757575;
 
 
-}
+} 
 .button--menu{
     color: #212121;
     background-color: #F5F4FA;
@@ -188,20 +254,9 @@ button:focus{
 
 
 
-
-
-
-
-
-
 .studio-footer{
     color:#FFFFFF;
     background-color: none;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.03;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
